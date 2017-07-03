@@ -1,6 +1,6 @@
 <?php
 
-define('URL_PATH', '/Web-Project');
+define('URL_PATH', '/Data-Project');
 
 define('LOGIN_URL', 'login');
 define('LOGOUT_URL', 'logout');
