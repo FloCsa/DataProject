@@ -1,0 +1,432 @@
+/* line 1, ../sass/_rechnung.scss */
+.address {
+  text-align: left;
+  font-family: "Times New Roman";
+  font-size: medium;
+}
+
+/* line 6, ../sass/_rechnung.scss */
+.OwnAddress {
+  font-size: medium;
+}
+
+/* line 9, ../sass/_rechnung.scss */
+.greetings {
+  text-align: left;
+}
+
+/* line 12, ../sass/_rechnung.scss */
+h3, .greetings {
+  font-family: "Times New Roman";
+}
+
+/* line 15, ../sass/_rechnung.scss */
+.Ansprechpartner {
+  font-size: smaller;
+}
+
+/* Space out content a bit */
+/* line 3, ../sass/_registrierung.scss */
+body.withSpace {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/* line 9, ../sass/_registrierung.scss */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+/* line 17, ../sass/_registrierung.scss */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+/* line 21, ../sass/_registrierung.scss */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+/* line 29, ../sass/_registrierung.scss */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  /* line 37, ../sass/_registrierung.scss */
+  .container {
+    max-width: 730px;
+  }
+}
+/* line 41, ../sass/_registrierung.scss */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+/* line 46, ../sass/_registrierung.scss */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 50, ../sass/_registrierung.scss */
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+/* line 56, ../sass/_registrierung.scss */
+.marketing {
+  margin: 40px 0;
+}
+
+/* line 59, ../sass/_registrierung.scss */
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  /* line 66, ../sass/_registrierung.scss */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Space out the masthead */
+  /* line 73, ../sass/_registrierung.scss */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  /* line 77, ../sass/_registrierung.scss */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+/* line 1, ../sass/_overview.scss */
+.floatR {
+  float: right;
+}
+
+/* line 5, ../sass/_overview.scss */
+.floatL {
+  float: left;
+}
+
+/* line 9, ../sass/_overview.scss */
+header::before {
+  content: '';
+  display: block;
+  height: 10px;
+  width: 100%;
+  background-color: #97dfa7;
+  margin-top: 0px;
+}
+
+/* line 18, ../sass/_overview.scss */
+.well {
+  margin-bottom: 0px;
+  padding: 5px;
+  background-image: linear-gradient(to bottom, #e8e8e8 0, #f5f5f5 100%);
+}
+
+/* line 24, ../sass/_overview.scss */
+.kontobox {
+  border-left: 1px solid #8e8e8e;
+  border-right: 1px solid #8e8e8e;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 200px;
+  height: 38px;
+  text-align: center;
+}
+
+/* line 37, ../sass/_overview.scss */
+.kontobetrag1 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 20px;
+  width: 100px;
+  padding: 10px;
+  margin-right: 20px;
+  color: #333333;
+  font-weight: bold;
+  float: right;
+  text-align: right;
+}
+
+/* line 51, ../sass/_overview.scss */
+.kontobetra2 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 20px;
+  width: 100px;
+  padding: 10px;
+  padding-right: 20px;
+  margin-right: 25px;
+  color: #200507;
+  font-weight: bold;
+  float: right;
+  text-align: right;
+}
+
+/* line 65, ../sass/_overview.scss */
+.glyphicon.glyphicon-pencil {
+  font-size: 10px;
+  border: 1px solid #969696;
+  padding: 2px;
+  border-radius: 4px;
+}
+/* line 70, ../sass/_overview.scss */
+.glyphicon.glyphicon-pencil:hover {
+  border: 1px solid black;
+}
+
+/* line 75, ../sass/_overview.scss */
+.glyphicon.glyphicon-trash {
+  font-size: 10px;
+  border: 1px solid #969696;
+  padding: 2px;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+/* line 81, ../sass/_overview.scss */
+.glyphicon.glyphicon-trash:hover {
+  border: 1px solid black;
+}
+
+/* line 86, ../sass/_overview.scss */
+.glyphicon.glyphicon-chevron-right {
+  padding: 10px;
+}
+
+/* line 91, ../sass/_overview.scss */
+td.content {
+  width: 250px;
+  height: 20px;
+  box-sizing: border-box;
+}
+
+/* line 97, ../sass/_overview.scss */
+td.icons {
+  width: 60px;
+  box-sizing: border-box;
+}
+
+/* line 102, ../sass/_overview.scss */
+td.number {
+  width: 40px;
+  box-sizing: border-box;
+}
+
+/* line 106, ../sass/_overview.scss */
+td.price {
+  width: 100px;
+  box-sizing: border-box;
+}
+
+/* line 111, ../sass/_overview.scss */
+.editBill {
+  cursor: pointer;
+}
+
+/* line 115, ../sass/_overview.scss */
+.deleteBill {
+  cursor: pointer;
+}
+
+/* line 119, ../sass/_overview.scss */
+button.arrow {
+  border: none;
+  background-color: transparent;
+}
+/* line 123, ../sass/_overview.scss */
+button.arrow::before {
+  transform: rotate(90deg);
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-delay: 0ms;
+  transition-timing-function: linear;
+  display: inline-block;
+}
+/* line 133, ../sass/_overview.scss */
+button.arrow.collapsed::before {
+  transform: rotate(0deg);
+}
+
+/* line 138, ../sass/_overview.scss */
+.user {
+  color: #b4b4ae;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* line 144, ../sass/_overview.scss */
+.btn-lg {
+  padding: 2px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/* line 1, ../sass/_Login.scss */
+#regContainer {
+  margin-top: 3%;
+}
+
+/* line 5, ../sass/_Login.scss */
+.panel-login {
+  border-color: #ccc;
+  background-color: #f9f8f8;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* line 12, ../sass/_Login.scss */
+.panel-login > .panel-heading {
+  text-align: center;
+}
+
+/* line 15, ../sass/_Login.scss */
+.panel-login > .panel-heading a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+/* line 23, ../sass/_Login.scss */
+.panel-login > .panel-heading a.active {
+  font-size: 34px;
+}
+
+/* line 26, ../sass/_Login.scss */
+.panel-login > .panel-heading hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  clear: both;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+}
+
+/* line 37, ../sass/_Login.scss */
+.panel-login input[type="text"], .panel-login input[type="email"], .panel-login input[type="password"] {
+  height: 45px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+/* line 45, ../sass/_Login.scss */
+.panel-login input:hover,
+.panel-login input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
+
+/* line 53, ../sass/_Login.scss */
+.btn-login {
+  background-color: #3D9DB3;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-color: #2d92a9;
+}
+
+/* line 64, ../sass/_Login.scss */
+.btn-login:hover,
+.btn-login:focus {
+  color: #fff;
+  background-color: #198da8;
+  border-color: #53A3CD;
+}
+
+/* line 70, ../sass/_Login.scss */
+.btn-register {
+  background-color: #17ae47;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-color: #1CB94A;
+}
+
+/* line 81, ../sass/_Login.scss */
+.btn-register:hover,
+.btn-register:focus {
+  color: #fff;
+  background-color: #1CA347;
+  border-color: #1CA347;
+}
+
+/* line 88, ../sass/_Login.scss */
+.fullscreen_bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("https://jointgroup.es/wp-content/uploads/2016/11/joint-network-group.jpg");
+  background-repeat: repeat;
+}
+
+/* line 100, ../sass/_Login.scss */
+.panel-heading a {
+  font-size: 48px;
+  color: #066a75;
+  padding: 2px 0 10px 0;
+  font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* line 110, ../sass/_Login.scss */
+.panel-heading a {
+  background: -webkit-repeating-linear-gradient(-45deg, #12535d, #12535d 20px, #406f76 20px, #406f76 40px, #12535d 40px);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
