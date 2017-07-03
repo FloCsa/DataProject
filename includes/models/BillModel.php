@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Dario_2
- * Date: 27.06.2017
- * Time: 13:06
- */
+
 
 class BillModel
 {

@@ -1,12 +1,5 @@
 <?php
 
-/**
- * beispiel_projekt
- *
- * Copyright (c) 2017 Daniel Hoover
- *
- * @author Daniel Hoover <https://github.com/danielhoover>
- */
 class Route
 {
 	public function __construct()
